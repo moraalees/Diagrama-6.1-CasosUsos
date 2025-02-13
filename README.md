@@ -27,6 +27,7 @@ R5 -> Banco
 ```
 
 ***2. Describe, haciendo uso de la plantilla, al menos el caso de uso "Sacar dinero", con las interacciones que tiene entre el actor y el caso de uso.***
+
 *Caso de Uso: Sacar Dinero*
 
 Cuando un cliente quiere retirar dinero de su cuenta por el cajero automático, primero debe autenticarse en el sistema. Cuando lo haya hecho, puede sacar dinero e introduce la cantidad deseada. El sistema por defecto comprueba si la cantidad introducida no es mayor que el saldo que hay en ese momento en la cuenta, además de comprobar el límite diario de retiro.
