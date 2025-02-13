@@ -33,3 +33,21 @@ R5 -> Banco
 Cuando un cliente quiere retirar dinero de su cuenta por el cajero automático, primero debe autenticarse en el sistema. Cuando lo haya hecho, puede sacar dinero e introduce la cantidad deseada. El sistema por defecto comprueba si la cantidad introducida no es mayor que el saldo que hay en ese momento en la cuenta, además de comprobar el límite diario de retiro.
 
 Si ambas condiciones se cumplen, el cajero procede a entregar el dinero y actualiza el saldo en la cuenta, restando la cantidad sacada. Sin embargo, si el saldo es insuficiente o la cantidad deseada es mayor que el límite diario, el sistema muestra un mensaje de error y solicita un nuevo ingreso con una nueva cantidad. Finalmente, cada transacción queda registrada en el sistema para controlar las operaciones realizadas en la cuenta.
+
+***3. Responde a las siguiente pregunta:¿Para qué me sirve tener/realizar un diagrama de casos de uso modelando el sistema que se representa? ¿Qué aporta?***
+
+*¿Para qué sirve?*
+
+Los diagramas de casos de uso sirven para representar el comportamiento de un sistema desde la perspectiva del usuario. Este, permite representar gráficamente las interacciones entre los actores y las funcionalidades que ofrece el sistema, así, ayuda a comprender algún problema o situación en el sistema.
+
+*¿Qué aporta?*
+
+· Claridad en los requisitos: Facilita la visualización de las funcionalidades del sistema de manera sencilla.
+
+· Comunicación efectiva: Mejora el entendimiento entre analistas, desarrolladores y usuarios finales.
+
+· Identificación de actores y relaciones: Define con precisión quién interactúa con el sistema y de qué manera.
+
+· Base para el diseño y desarrollo: Proporciona un punto de partida para la implementación y validación de requerimientos.
+
+· Reducción de errores: Ayuda a evitar omisiones en la planificación del sistema al anticipar posibles escenarios.
