@@ -34,6 +34,18 @@ Cuando un cliente quiere retirar dinero de su cuenta por el cajero automático, 
 
 Si ambas condiciones se cumplen, el cajero procede a entregar el dinero y actualiza el saldo en la cuenta, restando la cantidad sacada. Sin embargo, si el saldo es insuficiente o la cantidad deseada es mayor que el límite diario, el sistema muestra un mensaje de error y solicita un nuevo ingreso con una nueva cantidad. Finalmente, cada transacción queda registrada en el sistema para controlar las operaciones realizadas en la cuenta.
 
+*Validarse en el sistema*
+
+Antes de realizar cualquier operación en el cajero, el usuario deberá validarse en el sistema. Primero, introduce su tarjeta y un pin que él quiera. El sistema valida los datos, si sale todo bien, el usuario podrá validarse. En caso de error en la autenticación, se muestra un mensaje de error y se solicita de nuevo los datos y tarjeta. Si el usuario introduce información incorrecta varias veces, la tarjeta puede ser bloqueada por seguridad.
+
+*Realizar transferencia*
+
+El usuario puede transferir dinero desde su cuenta a otra. Para ello, debe seleccionar la opción de realizar transferencia e ingresa los datos de la cuenta de la que quiere recibir dinero además de la cantidad a transferir. El sistema verifica que el cliente tenga saldo suficiente y el dinero se envía. Luego, se actualiza el saldo de la cuenta y se genera un comprobante de la transacción. Si el saldo es insuficiente, se muestra un mensaje de error y se cancela la operación, teniendo que volver al inicio del acto.
+
+*Realizar ingreso*
+
+El cliente puede ingresar dinero en su cuenta a través del cajero automático. Para ello, debe seleccionar la opción de realizar ingreso y después elige la cuenta destino, depositando el dinero en efectivo en el cajero. El sistema cuenta y verifica la cantidad de dinero, permitiendo al cliente confirmar la cantidad antes de acabar el proceso. Una vez confirmada, el saldo se actualiza y se genera un recibo de la operación.
+
 ***3. Responde a las siguiente pregunta:¿Para qué me sirve tener/realizar un diagrama de casos de uso modelando el sistema que se representa? ¿Qué aporta?***
 
 *¿Para qué sirve?*
